@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Sarina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+#logo {
+  font-size: 40px;
+  font-family: "Sarina", cursive;
+  font-weight: 100;
+  color: black;
+}
+
+.antique {
+  background-color: antiquewhite;
+  background-color: rgb(253, 241, 226);
+  background-color: rgb(245, 153, 41);
+}
+
+#nav-links .nav-link {
+  color: black;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scrolled {
+  background-color: #fff;
+  transition: all 1s ease-in-out;
+}
+
+.wrapper {
+  background-color: rgb(245, 153, 41);
+  display: flex;
+  align-items: center;
+}
+
+#header-photo-container {
+  height: 80vh;
+  background-color: rgb(245, 153, 41);
+}
+
+#header-photo-container img {
+  height: 50vh;
+  width: 100%;
+  border-radius: 30px;
+}
+
+#header-text h1 {
+  font-family: "DM Serif Display", serif;
+  color: #022201;
+  text-transform: capitalize;
+}
+
+#header-text p {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 100px;
+}
+
+#contact-btn {
+  color: #111;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.about__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__img .house {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.about__img .house-1 {
+  border: 1px solid gray;
+  height: 24rem;
+  width: 20rem;
+  background-image: url("img/about-img-1.jpg");
+  position: relative;
+  top: 2.5rem;
+}
+
+.about__img .house-2 {
+  height: 20rem;
+  width: 15rem;
+  background-image: url("img/about-img-2.jpg");
+  position: relative;
+  top: -1.5rem;
+  right: -10rem;
+  border: 1px solid gray;
+}
+
+#about-text h2 {
+  font-family: "Teko", sans-serif;
+  color: #084e06;
+}
+
+#about-text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+#services h1,
+#slider h1,
+#review h1 {
+  font-size: 30px;
+  font-family: "Teko", sans-serif;
+  text-transform: capitalize;
+  color: #084e06;
+}
+
+#service-row img {
+  width: 50px;
+  height: 50px;
+}
+
+#service-row {
+  text-align: center;
+}
+
+#service-row p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+#service-row h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#slider {
+  padding: 100px 0px;
+}
+
+#slider img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  height: 300px;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+#stats {
+  text-transform: capitalize;
+  background-color: #021801;
+  color: rgb(184, 182, 182);
+  text-align: center;
+  font-size: 25px;
+  font-family: "DM Serif Display", serif;
+}
+
+#stats i {
+  font-size: 40px;
+}
+
+#review {
+  margin-top: 100px;
+}
+
+.review-card {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+blockquote {
+  border: 1px solid rgb(228, 224, 224);
+  background-color: rgba(248, 244, 244, 0.438);
+}
+
+.quote-box {
+  overflow: hidden;
+  height: 100%;
+  border-radius: 2px;
+  color: black;
+  font-family: "DM Serif Display", serif;
+  color: gray;
+}
+
+.quotation-mark {
+  font-weight: bold;
+  font-size: 70px;
+  color: #111;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+@media only screen and (max-width: 1000px) {
+  .about__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__img .house-1 {
+    width: 18rem;
+    height: 22rem;
+  }
+
+  .about__img .house-2 {
+    height: 18rem;
+    top: -1rem;
+    right: -6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #logo {
+    font-size: 30px;
+  }
+
+  #header-photo-container {
+    height: 50vh;
+  }
+  #header-text {
+    margin-top: 50px;
+  }
+  #header-text h1 {
+    font-size: 40px;
+  }
+  #header-text p {
+    font-size: 18px;
+  }
+
+  #services::after {
+    display: none;
+  }
+
+  .about__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__img .house-1 {
+    width: 15rem;
+    height: 22rem;
+    left: -2rem;
+  }
+
+  .about__img .house-2 {
+    height: 18rem;
+    top: -1rem;
+    right: -3rem;
+  }
+
+  #stats {
+    font-size: 20px;
+  }
+
+  #stats i {
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #logo {
+    font-size: 22px;
+  }
+}
