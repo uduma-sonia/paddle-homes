@@ -311,8 +311,8 @@ hr {
     font-size: 15px;
   }
 
-  form {
-    width: 320px;
+  #form {
+    width: 350px;
   }
 
   #footer-socials a {
