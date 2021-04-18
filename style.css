@@ -276,6 +276,15 @@ hr {
     padding: 5px 0px;
     font-size: 16px;
   }
+
+  #about-text p,
+  #reason p,
+  #service-row p,
+  #contact p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
