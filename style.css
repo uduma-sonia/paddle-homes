@@ -203,6 +203,31 @@ hr {
   margin-bottom: 100px;
 }
 
+#footer {
+  background-color: #022201;
+}
+
+#footer-img {
+  width: 70px;
+}
+
+#footer h3 {
+  color: rgb(202, 199, 199);
+}
+
+#footer p a,
+#footer p {
+  color: rgb(245, 153, 41);
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer-socials a {
+  font-size: 20px;
+  color: rgb(184, 182, 182);
+  padding-right: 10px;
+}
+
 @media only screen and (max-width: 1000px) {
   .about__img {
     display: flex;
@@ -284,6 +309,14 @@ hr {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: gray;
     font-size: 15px;
+  }
+
+  form {
+    width: 360px;
+  }
+
+  #footer-socials a {
+    padding-right: 20px;
   }
 }
 

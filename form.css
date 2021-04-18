@@ -2,7 +2,7 @@ form {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0 auto;
   width: 400px;
-  height: 333px;
+  height: 360px;
   padding: 30px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -moz-border-radius: 2px;
@@ -20,8 +20,6 @@ form {
 }
 
 textarea {
-  background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
   width: 276px;
   height: 110px;
   margin: 0 auto;
@@ -36,7 +34,7 @@ textarea {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   color: #fff;
-  padding-left: 45px;
+  padding-left: 5px;
   padding-right: 20px;
   padding-top: 12px;
   margin-bottom: 20px;
@@ -64,37 +62,31 @@ input {
 }
 
 input.name {
-  background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px;
-  padding-left: 45px;
+  padding-left: 5px;
 }
 
 input.email {
-  background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
-  padding-left: 45px;
+  padding-left: 5px;
 }
 
 input.message {
-  background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
-  padding-left: 45px;
+  padding-left: 5px;
 }
 
 ::-webkit-input-placeholder {
-  color: #fff;
+  color: #111;
 }
 
 :-moz-placeholder {
-  color: #fff;
+  color: #111;
 }
 
 ::-moz-placeholder {
-  color: #fff;
+  color: #111;
 }
 
 :-ms-input-placeholder {
-  color: #fff;
+  color: #111;
 }
 
 input:focus,
@@ -115,6 +107,7 @@ textarea:focus {
   background-color: transparent;
   border: 1px solid black;
   color: #111;
+  font-weight: 700;
 }
 
 .btn:hover {
