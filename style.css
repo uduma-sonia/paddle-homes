@@ -305,14 +305,14 @@ hr {
   #about-text p,
   #reason p,
   #service-row p,
-  #contact p {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: gray;
+  #contact p,
+  #footer p a,
+  #footer p {
     font-size: 15px;
   }
 
   form {
-    width: 360px;
+    width: 320px;
   }
 
   #footer-socials a {
