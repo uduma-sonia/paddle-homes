@@ -32,6 +32,8 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <link rel="stylesheet" href="form.css" />
+
     <title>construction company</title>
   </head>
   <body>
@@ -115,9 +117,11 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-6" id="about-text">
           <div class="row pt-4">
             <div class="col-2"></div>
+
             <div class="col-8">
               <h2>About Us &rarr;</h2>
               <p>
@@ -130,6 +134,7 @@
                 Accusamus quo cum soluta cupiditate dolore vel.
               </p>
             </div>
+
             <div class="col-2"></div>
           </div>
         </div>
@@ -149,6 +154,7 @@
             aliquid perferendis quasi tempora molestiae!
           </p>
         </div>
+
         <div class="col-6 col-lg-3">
           <h2>Management</h2>
           <img src="img/services-img-4.png" class="img-fluid" />
@@ -157,6 +163,7 @@
             aliquid perferendis quasi tempora molestiae!
           </p>
         </div>
+
         <div class="col-6 col-lg-3">
           <h2>Design</h2>
           <img src="img/services-img-2.png" class="img-fluid" />
@@ -165,6 +172,7 @@
             aliquid perferendis quasi tempora molestiae!
           </p>
         </div>
+
         <div class="col-6 col-lg-3">
           <h2>Renovation</h2>
           <img src="img/services-img-3.png" class="img-fluid" alt="" />
@@ -220,69 +228,94 @@
       </div>
     </section>
 
-    <!-- REVIEW -->
-    <section class="container" id="review">
-      <h1 class="mb-5 ml-3">what our clients say &rarr;</h1>
+    <!-- REASONS -->
 
-      <div class="swiper-container" id="review-swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="review-card">
-              <blockquote class="quote-box pl-4 pr-4">
-                <p class="quotation-mark mb-0">“</p>
-                <p class="quote-text">
-                  Don't believe anything that you read on the internet, it may
-                  be fake. Lorem ipsum dolor sit amet consectetur, adipisicing
-                  elit. Exercitationem laborum deleniti quam consequuntur
-                  voluptate perspiciatis?
-                </p>
-                <hr />
-                <div class="blog-post-actions text-right">
-                  <p class="blog-post-bottom pull-left mr-3">Abraham Lincoln</p>
-                </div>
-              </blockquote>
+    <section class="container mt-5">
+      <div class="row align-items-center" id="reason">
+        <div class="col-lg-6">
+          <h1 class="pb-3">why you should work with us &rarr;</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            optio ullam, sit consectetur minima esse accusantium molestiae magni
+            quo architecto eum corrupti amet!
+            <br />
+            <br />
+            Recusandae quas provident laboriosam voluptas, expedita cumque.
+            Accusamus quo cum soluta cupiditate dolore vel.
+          </p>
+        </div>
+
+        <div class="about__img col-lg-6 mt-4">
+          <div class="row" id="reason-2">
+            <div class="col-6 mb-5">
+              <p>professional service</p>
             </div>
-          </div>
 
-          <div class="swiper-slide">
-            <div class="review-card">
-              <blockquote class="quote-box pl-4 pr-4">
-                <p class="quotation-mark mb-0">“</p>
-                <p class="quote-text">
-                  Don't believe anything that you read on the internet, it may
-                  elit. Exercitationem laborum deleniti quam consequuntur
-                  voluptate perspiciatis?
-                </p>
-                <hr />
-                <div class="blog-post-actions text-right">
-                  <p class="blog-post-bottom pull-left mr-3">Abraham Lincoln</p>
-                </div>
-              </blockquote>
+            <div class="col-6 mb-5">
+              <p>highly recommended</p>
             </div>
-          </div>
 
-          <div class="swiper-slide">
-            <div class="review-card">
-              <blockquote class="quote-box pl-4 pr-4">
-                <p class="quotation-mark mb-0">“</p>
-                <p class="quote-text">
-                  Don't believe anything that you read on the internet, it may
-                  be fake. Lorem ipsum adipisicing elit. Exercitationem laborum
-                  deleniti quam consequuntur voluptate perspiciatis?
-                </p>
-                <hr />
-                <div class="blog-post-actions text-right">
-                  <p class="blog-post-bottom pull-left mr-3">Abraham Lincoln</p>
-                </div>
-              </blockquote>
+            <div class="col-6">
+              <p>great support</p>
+            </div>
+
+            <div class="col-6">
+              <p>Experienced personnels</p>
             </div>
           </div>
         </div>
-
-        <div class="swiper-button-next"></div>
       </div>
     </section>
 
+    <hr />
+
+    <!-- CONTACT -->
+    <div class="container" id="contact">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 text-center text-lg-left">
+          <h1 class="pb-3">Contact Us</h1>
+          <p>
+            <strong>Head Quarter:</strong> No. 20, Aker road, off Iwofe, Port
+            Harcourt, Rivers State, Nigeria
+            <br />
+            <br />
+            <strong>Branch:</strong> No. 20, Aker road, off Iwofe, Port
+            Harcourt, Rivers State, Nigeria
+          </p>
+          <p>
+            <strong>
+              012-6532-568-9746 <br />
+              012-6532-568-9746
+            </strong>
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-6 mt-5">
+          <form id="form">
+            <input name="name" placeholder="Name" class="name" required />
+            <input
+              name="emailaddress"
+              placeholder="E-mail"
+              class="email"
+              type="email"
+              required
+            />
+            <textarea
+              rows="10"
+              cols="50"
+              name="subject"
+              placeholder="Your message"
+              class="message"
+              required
+            ></textarea>
+            <div id="send-btn">
+              <button class="mb-4 btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <!-- SCRIPT TAGS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
