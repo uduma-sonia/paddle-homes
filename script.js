@@ -43,3 +43,5 @@ const swiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
   },
 });
+
+AOS.init();

@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 #logo {
   font-size: 40px;
   font-family: "Sarina", cursive;
@@ -40,9 +44,9 @@
 }
 
 #header-photo-container img {
-  height: 50vh;
+  height: 70vh;
   width: 100%;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 #header-text h1 {
@@ -253,6 +257,9 @@ hr {
   }
 
   #header-photo-container {
+    height: 60vh;
+  }
+  #header-photo-container img {
     height: 50vh;
   }
   #header-text {
